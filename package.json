@@ -1,0 +1,27 @@
+{
+  "name": "planilha-gastos-mensais",
+  "version": "1.0.0",
+  "description": "Sistema de controle financeiro mensal com categorias personalizadas, entradas de dinheiro, gráfico de pizza de porcentagens e exportação Excel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-excel": "node generate-excel.js"
+  },
+  "keywords": [
+    "finanças",
+    "gastos-mensais",
+    "planilha",
+    "excel",
+    "grafico-pizza"
+  ],
+  "author": "Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.5.1",
+    "@capacitor/cli": "^8.5.1",
+    "@capacitor/core": "^8.5.1",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2"
+  }
+}
